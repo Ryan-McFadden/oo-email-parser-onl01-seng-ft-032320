@@ -5,6 +5,6 @@
 class EmailAddressParser
   
   def parse
-    emails.to_a
+    
   end
 end
