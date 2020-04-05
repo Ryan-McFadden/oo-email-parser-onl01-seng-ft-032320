@@ -4,8 +4,10 @@
 # or whitespace (' ').
 class EmailAddressParser
   
+  @email_list = []
+  
   def initialize(emails)
-    
+    @email_list << emails
   end
   
   def parse
